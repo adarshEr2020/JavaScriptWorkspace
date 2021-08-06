@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <style>
+            body {padding : 2em;}
+
+            .headerContainer{
+                display: flex;
+                flex-flow: column wrap;
+                align-content: center;
+                background: tomato;
+                font-weight: bold;
+                padding: 10;
+            }
+
+            .footerContainer {
+                display: flex;
+                flex-flow: column wrap;
+                align-content: center;
+                background:lightgreen;
+                font-weight: bold;
+                padding: 10;
+            }
+
+            .mainContainer{
+                display: flex;
+                flex-flow: column wrap;
+                font-weight: bold;
+                text-align: center;
+                flex-direction: row;
+            }
+
+            .mainContainerItem {
+                text-align:start;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header class = "headerContainer">Header</header>
+        <div class="mainContainer">
+            <section class="mainContantItem">
+                <article>
+                    <h2>First article</h2>
+                    <P>...</P>
+                </article>
+                <article>
+                    <h2>Second article</h2>
+                    <p>...</p>               
+                </article>
+                <article>
+                    <h2>Third article</h2>
+                    <p>...</p>
+                </article>
+            </section>
+            <sidebar class="sideBarItem sideBarLeftItem">...</sidebar>
+            <sidebar class="sideBarItem sideBarRightItem">...</sidebar>
+        </div>
+        <footer class="footerContainer">Footer</footer>
+        <!-- Code injected by live-server -->
+        <script type="text/javascript">...</script>
+    </body>
+</html>
